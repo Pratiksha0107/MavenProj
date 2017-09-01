@@ -63,6 +63,7 @@ public class TC_newUser extends TestBase{
 	public void newUserRegistration()
 	{
 		homepage = new HomePage(driver);
+                log.info("Pratiksha Testing GitHub Branch");
 		log.info("***************** Create new user ************************");
 		homepage.createAccount("amoljadhao1@gmail.com");
 		homepage.personalInformation("amolo1", "jadhavo1", "P@ssw0rd", "amol", "jadhav","address", "city", "12332", "8806468985");
